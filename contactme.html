@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<style type="text/css">
+body {
+	color: #c97b06;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	background-color: #f5e4c1;
+}
+td {
+	padding: 8px;
+}
+button {
+	width: 100px;
+	height: 30px;
+	border: none;
+	color: #f5e4c1;
+	background-color: #c97b06;
+}
+button:hover {
+	cursor: pointer;
+	color: white;
+	background-color: gray;
+}
+.auto-style1 {
+	font-size: x-small;
+}
+
+.valid {
+	background-color : white;
+}
+.invalid {
+background-color: #ffe5e3;
+	}
+</style>
+<title>Evan Li</title>
+<h1>Contact me</h1>
+</head>
+
+<body>
+    eli41@my.centennialcollege.ca or evanli65148@gmail.com
+<br>
+    <form>
+        If you want to contact me from this site please send me a message by filling this form.
+        <table id="table1">
+            <tr>
+                <td>First Name: </td>
+                <td>
+                <input id="fname" name="fname" pattern="[A-Za-z0-9]{1,20}"  style="width: 150px" type="text" /></td>
+            </tr>
+            <tr>
+                <td>Last Name: </td>
+                <td>
+                <input id="lname" name="lname" pattern="[A-Za-z0-9]{1,20}"  style="width: 150px" type="text" /></td>
+            </tr>
+            <tr>
+                <td>Contact Number: </td>
+                <td>
+                <input id="number" name="number" style="width: 150px" type="text" /></td>
+                </tr>
+            <tr>
+                <td>Email: </td>
+                <td>
+                <input id="email" name="emaill" onchange="ValidateEmail(this.value)"  style="width: 150px" type="text" /></td>
+            </tr>
+            <tr>
+                <td>Message: </td>
+                <td>
+                <input id="msg" name="msg" style="width: 150px" type="text" /></td>
+            </tr>
+           
+        </table>
+    </form>
+        <br><a href="home.html"><button>Submit</button></a>
+    
+    
+<br>
+<br>
+<img src="https://cdn.discordapp.com/attachments/730416240274702376/894296045310341140/sitelogo.png" width ="50">
+<a href="home.html"><button>Home</button></a>
+<a href="aboutme.html"><button>About me</button></a>
+<a href="projects.html"><button>Projects</button></a>
+<a href="services.html"><button>Services</button></a>
+
+
+<span class="auto-style1"><br><br>Webpage by Evan Li </span>
+
+</body>
+
+</html>
